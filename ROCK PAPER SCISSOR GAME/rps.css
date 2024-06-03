@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: #E6CCB2;
+}
+
+
+h1{
+    text-align: center;
+    font-family: inika;
+    color: #264653;
+    font-size: 58px;
+    font-weight:normal;
+    position: relative;
+    top: 20px;
+}
+
+h1:hover{
+    font-weight: bold;
+}
+
+                                /* PLAYER 1 */
+
+
+.rock1{
+    width: 250px;
+    height: 250px;
+    border: #264653 5px solid;
+    background-color: #264653;
+    border-radius: 50%;
+    position: fixed;
+    left:250px;
+    top:160px;
+    /* background-image: url(paper\ 1.png); */
+    background-image: url(rock\ 1.png);
+    background-size:contain;
+}
+
+.paper1{
+    width: 250px;
+    height: 250px;
+    border: #264653 5px solid;
+    background-color: #264653;
+    border-radius: 50%;
+    position: fixed;
+    left:250px;
+    top:160px;
+    /* background-image: url(paper\ 1.png); */
+    background-image: url(paper\ 1.png);
+    background-size:contain;
+
+}
+
+.scissor1{
+    width: 250px;
+    height: 250px;
+    border: #264653 5px solid;
+    background-color: #264653;
+    border-radius: 50%;
+    position: fixed;
+    left:250px;
+    top:160px;
+    /* background-image: url(paper\ 1.png); */
+    background-image:url(scissor\ 1.png);
+    background-size:contain;
+
+}
+
+
+.orignal1{
+    width: 250px;
+    height: 250px;
+    border: #264653 6px solid;
+    background-color: white;
+    border-radius: 50%;
+    position: fixed;
+    left:250px;
+    top:160px;
+}
+
+.rock1:hover{
+    border: #264653 7px solid;
+    cursor: pointer;
+}
+.paper1:hover{
+    border: #264653 7px solid;
+    cursor: pointer;
+}
+.scissor1:hover{
+    border: #264653 7px solid;
+    cursor: pointer;
+}
+.orignal1:hover{
+    border: #264653 8px solid;
+    cursor: pointer;
+}
+
+                  /* PLAYER 2 */
+.rock2{
+
+    width: 250px;
+    height: 250px;
+    border: #264653 5px solid;
+    background-color: #264653;
+    border-radius: 50%;
+    position: fixed;
+    left:950px;
+    top:160px;
+    /* background-image: url(paper\ 1.png); */
+    background-image: url(rock\ 2.png);
+    background-size:contain;
+
+}
+.paper2{
+    width: 250px;
+    height: 250px;
+    border: #264653 5px solid;
+    background-color: #264653;
+    border-radius: 50%;
+    position: fixed;
+    left:950px;
+    top:160px;
+    /* background-image: url(paper\ 1.png); */
+    background-image: url(Paper\ 2.png);
+    background-size:contain;
+}
+.scissor2{
+    width: 250px;
+    height: 250px;
+    border: #264653 5px solid;
+    background-color: #264653;
+    border-radius: 50%;
+    position: fixed;
+    left:950px;
+    top:160px;
+    /* background-image: url(paper\ 1.png); */
+    background-image: url(Scissor\ 2.png);
+    background-size:contain;
+}
+.orignal2{
+    width: 250px;
+    height: 250px;
+    border: #264653 5px solid;
+    background-color: white;
+    border-radius: 50%;
+    position: fixed;
+    left:950px;
+    top:160px;
+    /* background-image: url(paper\ 1.png); */
+}
+
+.rock2:hover{
+    border: #264653 7px solid;
+    cursor: pointer;
+}
+.paper2:hover{
+    border: #264653 7px solid;
+    cursor: pointer;
+}
+.scissor2:hover{
+    border: #264653 7px solid;
+    cursor: pointer;
+}
+.orignal2:hover{
+    border: #264653 8px solid;
+    cursor: pointer;
+}
+
+
+.vs{
+    font-family: inika;
+    color: #264653;
+    font-size: 80px;
+    position: fixed;
+    text-align: center;
+    font-weight: lighter;
+    left: 680px;
+    top: 270px;
+}
+
+.vs:hover{
+    font-weight: bold;
+}
+
+#text{
+    height: 50px;
+    width: 220px;
+    position:fixed;
+    border: 4px solid #264653;
+    border-radius: 1.5rem;
+    text-align: center;
+    top: 460px;
+    left: 270px;
+    font-family: inika;
+    font-weight: bolder;
+    font-size: x-large;  
+}
+
+#text:hover{
+    border: 6px solid #264653;
+}
+
+.button{
+    height: 60px;
+    width: 220px;
+    position: fixed;
+    border: 4px solid #264653;
+    border-radius: 1.5rem;
+    text-align: center;
+    top: 460px;
+    left: 980px;
+    font-family: inika;
+    font-weight: bolder;
+    font-size: x-large; 
+
+}
+
+.button:hover{
+    border: 6px solid #264653;
+    cursor:pointer;
+}
+
+.play{
+    color: aliceblue;
+    height: 60px;
+    width: 120px;
+    position: fixed;
+    border: 4px solid #264653;
+    background-color: #264653;
+    border-radius: 1.5rem;
+    text-align: center;
+    top: 540px;
+    left: 690px;
+    font-family: inika;
+    font-weight: bolder;
+    font-size: x-large;  
+}
+
+.play:hover{
+         font-weight: lighter;
+         cursor: pointer;
+}
+
+
+.opt1{
+    width: 110px;
+    height: 40px;
+    text-align: center;
+    font-family: inika;
+    font-weight: light;
+    font-size: x-large;
+    border: 4px solid #264653;
+    background-color: #264653;
+    color: aliceblue;
+    border-radius:0.9rem;
+    position: fixed;
+    top: 180px;
+    left: 70px;
+}
+.opt2{
+    width: 110px;
+    height: 40px;
+    text-align: center;
+    font-family: inika;
+    font-weight: light;
+    font-size: x-large;
+    border: 4px solid #264653;
+    background-color: #264653;
+    color: aliceblue;
+    border-radius:0.9rem;
+    position: fixed;
+    top: 260px;
+    left: 70px;
+}
+.opt3{
+    width: 110px;
+    height: 40px;
+    text-align: center;
+    font-family: inika;
+    font-weight: light;
+    font-size: x-large;
+    border: 4px solid #264653;
+    background-color: #264653;
+    color: aliceblue;
+    border-radius:0.9rem;
+    position: fixed;
+    left: 70px;
+    top:350px ;
+}
+
+.opt1:hover{
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+.opt2:hover{
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+.opt3:hover{
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+
+.hide1{
+    display:none ;
+}
+.hide2{
+    display:none ;
+}
+.hide3{
+    display:none ;
+}
+.hide5{
+    display:none ;
+}
+.hide6{
+    display:none ;
+}
+.hide7{
+    display:none ;
+}
+
+
+.score1{
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    position: fixed;
+    background-color: #264653;
+    font-family: inika;
+    font-size: xxx-large;
+    color: aliceblue;
+    border: 4px solid #264653;
+    border-radius: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    top: 550px;
+    left: 350px;
+}
+.score2{
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    position: fixed;
+    background-color: #264653;
+    font-family: inika;
+    font-size: xxx-large;
+    left: 800px;
+    color: aliceblue;
+    border: 4px solid #264653;
+    border-radius: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    top: 550px;
+    left: 1060px;
+}
+
+
+
+
+
+
